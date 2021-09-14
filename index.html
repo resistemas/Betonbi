@@ -1,0 +1,668 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" content="betonbi, track, trace">
+    <meta name="author" content="Rosoftpe, Desarrollador de sistemas de información">
+    <meta name="description" content="El sistema Betonbi cuenta con el respaldo de un equipo multidisciplinario de especialistas en gerenciamiento de obras, concreto pre-mezclado y en tecnologías de la información, dedicado a brindarte un servicio de excelencia.">
+    <link rel="shortcut icon" href="./assets/logo/fav.png" />
+
+    <!-- Bootstrap CSS -->
+    <link href="./css/bootstrap.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@100;200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/animate.min.css">
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./plugins/toast/jnoty.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+    <title>Betonbi Track && Trace</title>
+</head>
+
+<body>
+    <div class="negro">
+        <nav class="navbar navbar-dark navbar-expand-md" style="padding-right: 15px;padding-left: 15px;background-color: black; border:none;">
+            <div class="container">
+                <a href="index.html" class="navbar-brand"><img src="./assets/logo/logo.svg" alt="Betonbi" class="logo"></a>
+                <span class="navbar-toggler negro" type="button" data-bs-toggle="collapse" data-bs-target="#MenuMovil">
+                    <!-- <span class="navbar-toggler-icon" ></span> -->
+                <img src="./assets/img/Nav.svg" alt="Navegacion_Movil">
+                </span>
+                <div id="MenuMovil" class="collapse navbar-collapse">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item link-item"><a href="#nosotros" class="nav-link link-item">Nosotros</a></li>
+                        <li class="nav-item"><a href="#acerca" class="nav-link link-item">Acerca de</a></li>
+                        <li class="nav-item"><a href="#integracion" class="nav-link link-item">Integraciones</a></li>
+                        <li class="nav-item"><a href="#blog" class="nav-link link-item">Blog</a></li>
+                        <li class="nav-item"><a href="#contacto" class="nav-link link-item-active">Contacto</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <div class="sd-movil d-block d-md-none ">
+            <img src="./assets/img/cilindro.png" class="img-slide-movil" style="z-index: 100;" alt="Cilindro">
+        </div>
+
+        <div class="container type-slide-head">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-12 mb-5 order-2 order-sm-2 title-slide">
+                    <span class="titulo">
+                        Lo que no se
+                        puede medir no se
+                        puede gestionar
+                    </span>
+                    <span class="sub-title mt-3">
+                        Te ofrecemos el sistema Betonbi®, una metodología de trabajo confiable y de última generación para la gestión del concreto que produces, compras o ensayas.
+                    </span>
+
+                </div>
+
+                <div class="col-lg-12 col-md-12 mb-5 order-3 order-sm-3 title-slide">
+                    <a href="#contacto" class="btn-contacto" style="display: inline;">
+                        Contacto
+                    </a>
+                    <div class="float-right">
+                        <img src="./assets/img/by.svg" alt="">
+                    </div>
+                </div>
+
+
+                <div class="col-12 col-md-6 d-none d-md-block order-1 order-sm-1 img-slide mt-5">
+                    <img src="./assets/img/cilindro.png" alt="Cilindro">
+                </div>
+
+            </div>
+        </div>
+
+        <div class="bg-white d-none d-md-block">
+            <div class="container">
+                <div class="row">
+                    <div class="col-6 col-md-12 p-4 order-4 order-sm-4 by-slide">
+                        <img src="./assets/img/by.svg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+
+    <section class="secction-article">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-sm-6 col-md-3 articles">
+                    <img src="./assets/img/pencil.svg" class="p-3" alt="Planificación y adaptabilidad">
+                    <h2 class="title-article fw-bold">Planificación y adaptabilidad</h2>
+                    <p class="paf">Interfaz integrada con Google Calendar donde podrás realizar la planificación de tus trabajos y recibirnotificaciones diarias.</p>
+                </div>
+                <div class="col-1"></div>
+                <div class="col-12 col-sm-6 col-md-3 articles">
+                    <img src="./assets/img/michi.svg" class="p-3" alt="En el sitio de construcción">
+                    <h2 class="title-article fw-bold">En el sitio de construcción</h2>
+                    <p class=" paf">El ingreso y seguimiento de datos en el sistema se realiza a través de la colocación de tags RFID pasivos dentro de las probetas de concreto fresco.</p>
+                </div>
+                <div class="col-1"></div>
+                <div class="col-12 col-sm-6 col-md-3 articles">
+                    <img src="./assets/img/phone.svg" class="p-3" alt="Visualización y analizis de datos">
+                    <h2 class="title-article fw-bold">Visualización y analizis de datos</h2>
+                    <p class="paf">Plataforma interactiva donde podrás visualizar tanto la trazabilidad completa del concreto volcado como atractivas analíticas.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="secction-two">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-sm-5">
+                    <h3 class="text-left fw-bold">La tecnología de <span class="bolds">identificación RFID</span> utilizada, permite su lectura en forma remota y no requiere de ninguna fuente de alimentación interna.</h3>
+                    <p class="text-left">Recibirás notificaciones diarias sobre las roturas según el plan de ensayos, junto con cualquier desviación respecto a las condiciones establecidas para el suministro a partir de los resultados de los ensayos.
+                    </p>
+                </div>
+                <div class="col-12 col-sm-7 text-end">
+                    <img src="./assets/img/img.svg" class="text-left" width="500px" alt="">
+                </div>
+                <div class="col-12 d-none d-md-block mt-5 mb-5"></div>
+                <div class="col-12 col-sm-7 text-start space d-none d-md-block">
+                    <img src="./assets/img/laptop.svg" class="text-left" width="550px" alt=" ">
+
+                </div>
+                <div class="col-12 col-sm-5 space  d-none d-md-block">
+                    <h3 class="text-left fw-bold">Lorem ipsum dolor sit amet, <span class="bolds">consectetur</span> adipiscing elit. Morbi tristique potenti ornare risus, dis.</h3>
+                    <p class="text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Senectus et quam tellus, varius ipsum quis. Sed quisque fringilla nec ac viverra ac aliquam commodo. Metus faucibus massa tortor fusce.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section-nosotros" id="nosotros">
+        <div class="nosotros-info">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-12 col-sm-5">
+                        <img src="./assets/img/nosotros.png" class="img-nosotros" width="100%" height="650px" alt="Nosotros">
+                    </div>
+                    <div class="col-12 col-sm-7">
+                        <div class="nosotros-items">
+                            <span class="marcador fw-bold">NOSOTROS</span>
+                            <h3 class="fw-bold">
+                                El sistema Betonbi cuenta con el respaldo de un <span class="bolds">equipo multidisciplinario</span> de especialistas en gerenciamiento de obras, concreto pre-mezclado y en tecnologías de la información, dedicado a brindarte
+                                un servicio de excelencia.
+                            </h3>
+                            <span class="view-noso d-block d-md-none" data-ac="false">Ver más...</span>
+                            <p class="nosotros-paf d-none d-md-block">
+                                Te acompañamos en cada etapa de su implantación, con el objetivo de garantizar un andamiaje exitoso de la gestión del hormigón en tu proyecto, planta o laboratorio. El concreto está entre los materiales de construcción más nobles y demandados en la actualidad.
+                                Por esta razón, los distintos actores involucrados en un proyecto tienen la necesidad creciente de contar con sistemas de gestión que los apoyen en sus procesos de trabajo.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="acercade" id="acerca">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-sm-6">
+                    <span class="marcador fw-bold">ACERCA DE</span>
+                    <div class="acerca-head">
+                        <h2 class="acerdade-paf fw-bold">
+                            Betonbi ofrece una <span class="bolds">gran flexibilidad</span> a la hora de integrarse a tus plataformas de <span class="bolds">trabajo</span>. A modo de ejemplo, te mencionamos solo algunas posibilidades que ofrecemos.
+                        </h2>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 fs-6 fw-bold">
+                    <p>
+                        Sistema que fomenta la <span class="bolds">transparencia y la mejora continua</span> en los procesos de manejo de datos entre los distintos actores
+                    </p>
+                    <hr>
+                    <p>
+                        Generación de una <span class="bolds">trazabilidad</span> confiable, durante y luego de finalizar la construcción
+                    </p>
+                    <hr>
+                    <p>
+                        Obtención de <span class="bolds">datos clave</span> en tiempo real para optimizar la toma de decisiones
+                    </p>
+                    <hr>
+                    <p>Reducción de errores y mejora en los tiempos de <span class="bolds">procesamiento</span> de resultados
+                    </p>
+                    <hr>
+                    <p>
+                        <span class="bolds">Integración</span> sencilla con herramientas externas y otros sistemas de gestión de la información
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="novedades d-none d-md-block">
+        <div class="container negro">
+            <div class="row">
+                <div class="col-12">
+                    <div class="d-flex justify-content-center">
+                        <div class="items-novedades">
+                            <p>Quieres estar al tanto de las novedades?</p>
+                            <div class="form-group" style="position: relative;">
+                                <input type="text" style="font-size: 22px;padding-left:30px;padding-right:30px;height:70px;" name="sucribirse" id="sucribirse" class="form-control" placeholder="| mail@gmail.com">
+                                <span class="bolds suscribe" id="senSubs">Suscribirse</span>
+                            </div>
+                            <p class="mt-3" style="font-size: 14px;">
+                                O contáctanos a travéz de
+                                <a href="mailto:info@betonbi.com" style="text-decoration: none;"><span class="bolds">info@betonbi.com</span></a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="integraciones" id="integracion">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-sm-6">
+                    <span class="marcador fw-bold">INTEGRACIONES</span>
+                    <div class="head-inte">
+                        <h2 class="integraciones-paf fw-bold">
+                            Betonbi ofrece una gran flexibilidad a la hora de <span class="bolds">integrarse a tus plataformas</span> de trabajo. A modo de ejemplo, te mencionamos solo algunas posibilidades que ofrecemos.
+                        </h2>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6">
+                    <div class="row">
+                        <div class="col-12 col-sm-6">
+                            <img src="./assets/img/Group 143.svg" class="integraciones-icons" alt="">
+                            <p class="pafs">Prensa hidráulica para rotura de probetas, ahorrando el registro y procesamiento manual de los resultados de carga.
+                            </p>
+                        </div>
+                        <div class="col-12 col-sm-6">
+                            <img src="./assets/img/Group 144.svg" class="integraciones-icons" alt="">
+                            <p class="pafs">Lectura digital de remitos durante la recepción del concreto en el sitio de construcción.
+                            </p>
+                        </div>
+
+                        <div class="col-12 col-sm-6">
+                            <img src="./assets/img/Group 145.svg" class="integraciones-icons" alt="">
+                            <p class="pafs">Sistemas de almacenamiento en la nube como Google Workspace, One Drive, Dropbox entre muchos otros.
+                            </p>
+                        </div>
+                        <div class="col-12 col-sm-6">
+                            <img src="./assets/img/Group 146.svg" class="integraciones-icons" alt="">
+                            <p class="pafs">Procesos y tecnologías de Building Information Modeling (BIM)
+                            </p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="video d-none d-md-block">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <span onclick="showModal()">
+                        <img src="./assets/img/video.svg" alt="video">
+                    </span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="proveedores">
+        <img src="./assets/img/Rectangle_53.svg" class="d-none d-md-block" style="position: absolute;" height="100%" alt="">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-sm-6 d-none d-md-block">
+                    <div class="tabses" style="position: absolute;z-index: 100;">
+                        <div class="tab-head">
+                            <div class="tbs active-tab" data-tbs="prove" data-ac="true" class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#provees" aria-expanded="true" aria-controls="provees">
+                                <h4>Proveedore de concreto</h4>
+                            </div>
+                            <div class="tbs" data-tbs="contra" data-ac="false" class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#caractes" aria-expanded="false" aria-controls="caractes">
+                                <h4>Contratistas</h4>
+                            </div>
+                            <div class="tbs" data-tbs="promo" data-ac="false" class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#promots" aria-expanded="false" aria-controls="promots">
+                                <h4>Promotores de Activos</h4>
+                            </div>
+                            <div class="tbs" data-tbs="labo" data-ac="false" class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#labor" aria-expanded="false" aria-controls="labor">
+                                <h4>laboratorios</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-6">
+                    <div class="accordion accordion-flush" id="accordionFlushExample">
+                        <div class="accordion-item" style="background-color: inherit;">
+                            <h2 class="accordion-header d-md-none" id="provee">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#provees" aria-expanded="false" aria-controls="provees">
+                                    Proveedores de hormigón
+                            </button>
+                            </h2>
+                            <div id="provees" class="accordion-collapse collapse show" aria-labelledby="provee" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">
+                                    <h2>
+                                        Mantén la confianza de tus clientes como <span class="bolds">proveedor de concreto</span>, la trazabilidad de tu suministro y evalúa los parámetros de tu negocio con Betonbi.
+                                    </h2>
+                                    <span>Gestión</span>
+                                    <ul>
+                                        <li>Tiempos de espera de los mixer.</li>
+                                        <li>Rendimientos de volcado.</li>
+                                        <li>Volúmenes entregados por cliente y obra.</li>
+                                        <li>Índices de precios de parámetros clave (cemento, áridos, combustible, dólar, entre otros).</li>
+                                    </ul>
+                                    <span>Técnicos</span>
+                                    <ul>
+                                        <li>Optimización de la mezcla.</li>
+                                        <li>No conformidad del suministro.</li>
+                                        <li>Evolución de la madurez del hormigón.</li>
+                                        <li>Variación de resistencia media respecto a la resistencia característica.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item" style="background-color: inherit;">
+                            <h2 class="accordion-header d-md-none" id="caracte">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#caractes" aria-expanded="false" aria-controls="caractes">
+                              Contratistas
+                            </button>
+                            </h2>
+                            <div id="caractes" class="accordion-collapse collapse" aria-labelledby="caracte" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">
+                                    <h2>
+                                        Mantén Contratistas la confianza de tus clientes como <span class="bolds">proveedor de concreto</span>, la trazabilidad de tu suministro y evalúa los parámetros de tu negocio con Betonbi.
+                                    </h2>
+                                    <span>Gestión</span>
+                                    <ul>
+                                        <li>Tiempos de espera de los mixer.</li>
+                                        <li>Rendimientos de volcado.</li>
+                                        <li>Volúmenes entregados por cliente y obra.</li>
+                                        <li>Índices de precios de parámetros clave (cemento, áridos, combustible, dólar, entre otros).</li>
+                                    </ul>
+                                    <span>Técnicos</span>
+                                    <ul>
+                                        <li>Optimización de la mezcla.</li>
+                                        <li>No conformidad del suministro.</li>
+                                        <li>Evolución de la madurez del hormigón.</li>
+                                        <li>Variación de resistencia media respecto a la resistencia característica.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item" style="background-color: inherit;">
+                            <h2 class="accordion-header d-md-none" id="promoto">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#promots" aria-expanded="false" aria-controls="promots">
+                              Promotores Activos
+                            </button>
+                            </h2>
+                            <div id="promots" class="accordion-collapse collapse" aria-labelledby="promoto" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">
+                                    <h2>
+                                        Mantén Promotores la confianza de tus clientes como <span class="bolds">proveedor de concreto</span>, la trazabilidad de tu suministro y evalúa los parámetros de tu negocio con Betonbi.
+                                    </h2>
+                                    <span>Gestión</span>
+                                    <ul>
+                                        <li>Tiempos de espera de los mixer.</li>
+                                        <li>Rendimientos de volcado.</li>
+                                        <li>Volúmenes entregados por cliente y obra.</li>
+                                        <li>Índices de precios de parámetros clave (cemento, áridos, combustible, dólar, entre otros).</li>
+                                    </ul>
+                                    <span>Técnicos</span>
+                                    <ul>
+                                        <li>Optimización de la mezcla.</li>
+                                        <li>No conformidad del suministro.</li>
+                                        <li>Evolución de la madurez del hormigón.</li>
+                                        <li>Variación de resistencia media respecto a la resistencia característica.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item" style="background-color: inherit;">
+                            <h2 class="accordion-header d-md-none" id="laboratiorio">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#labor" aria-expanded="false" aria-controls="labor">
+                              Laboratorios
+                            </button>
+                            </h2>
+                            <div id="labor" class="accordion-collapse collapse" aria-labelledby="laboratiorio" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">
+                                    <h2>
+                                        Mantén Laboratiorio la confianza de tus clientes como <span class="bolds">proveedor de concreto</span>, la trazabilidad de tu suministro y evalúa los parámetros de tu negocio con Betonbi.
+                                    </h2>
+                                    <span>Gestión</span>
+                                    <ul>
+                                        <li>Tiempos de espera de los mixer.</li>
+                                        <li>Rendimientos de volcado.</li>
+                                        <li>Volúmenes entregados por cliente y obra.</li>
+                                        <li>Índices de precios de parámetros clave (cemento, áridos, combustible, dólar, entre otros).</li>
+                                    </ul>
+                                    <span>Técnicos</span>
+                                    <ul>
+                                        <li>Optimización de la mezcla.</li>
+                                        <li>No conformidad del suministro.</li>
+                                        <li>Evolución de la madurez del hormigón.</li>
+                                        <li>Variación de resistencia media respecto a la resistencia característica.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- <div class="col-12 col-sm-6">
+                    <div class="contens">
+                        <div id="prove">
+                            <h2>
+                                Mantén la confianza de tus clientes como <span class="bolds">proveedor de concreto</span>, la trazabilidad de tu suministro y evalúa los parámetros de tu negocio con Betonbi.
+                            </h2>
+                            <span>Gestión</span>
+                            <ul>
+                                <li>Tiempos de espera de los mixer.</li>
+                                <li>Rendimientos de volcado.</li>
+                                <li>Volúmenes entregados por cliente y obra.</li>
+                                <li>Índices de precios de parámetros clave (cemento, áridos, combustible, dólar, entre otros).</li>
+                            </ul>
+                            <span>Técnicos</span>
+                            <ul>
+                                <li>Optimización de la mezcla.</li>
+                                <li>No conformidad del suministro.</li>
+                                <li>Evolución de la madurez del hormigón.</li>
+                                <li>Variación de resistencia media respecto a la resistencia característica.</li>
+                            </ul>
+                        </div>
+
+                        <div id="contra">
+                            <h2>
+                                Mantén Contratistas la confianza de tus clientes como <span class="bolds">proveedor de concreto</span>, la trazabilidad de tu suministro y evalúa los parámetros de tu negocio con Betonbi.
+                            </h2>
+                            <span>Gestión</span>
+                            <ul>
+                                <li>Tiempos de espera de los mixer.</li>
+                                <li>Rendimientos de volcado.</li>
+                                <li>Volúmenes entregados por cliente y obra.</li>
+                                <li>Índices de precios de parámetros clave (cemento, áridos, combustible, dólar, entre otros).</li>
+                            </ul>
+                            <span>Técnicos</span>
+                            <ul>
+                                <li>Optimización de la mezcla.</li>
+                                <li>No conformidad del suministro.</li>
+                                <li>Evolución de la madurez del hormigón.</li>
+                                <li>Variación de resistencia media respecto a la resistencia característica.</li>
+                            </ul>
+                        </div>
+
+                        <div id="promo">
+                            <h2>
+                                Mantén Promotores la confianza de tus clientes como <span class="bolds">proveedor de concreto</span>, la trazabilidad de tu suministro y evalúa los parámetros de tu negocio con Betonbi.
+                            </h2>
+                            <span>Gestión</span>
+                            <ul>
+                                <li>Tiempos de espera de los mixer.</li>
+                                <li>Rendimientos de volcado.</li>
+                                <li>Volúmenes entregados por cliente y obra.</li>
+                                <li>Índices de precios de parámetros clave (cemento, áridos, combustible, dólar, entre otros).</li>
+                            </ul>
+                            <span>Técnicos</span>
+                            <ul>
+                                <li>Optimización de la mezcla.</li>
+                                <li>No conformidad del suministro.</li>
+                                <li>Evolución de la madurez del hormigón.</li>
+                                <li>Variación de resistencia media respecto a la resistencia característica.</li>
+                            </ul>
+                        </div>
+
+                        <div id="labo">
+                            <h2>
+                                Mantén Laboratiorio la confianza de tus clientes como <span class="bolds">proveedor de concreto</span>, la trazabilidad de tu suministro y evalúa los parámetros de tu negocio con Betonbi.
+                            </h2>
+                            <span>Gestión</span>
+                            <ul>
+                                <li>Tiempos de espera de los mixer.</li>
+                                <li>Rendimientos de volcado.</li>
+                                <li>Volúmenes entregados por cliente y obra.</li>
+                                <li>Índices de precios de parámetros clave (cemento, áridos, combustible, dólar, entre otros).</li>
+                            </ul>
+                            <span>Técnicos</span>
+                            <ul>
+                                <li>Optimización de la mezcla.</li>
+                                <li>No conformidad del suministro.</li>
+                                <li>Evolución de la madurez del hormigón.</li>
+                                <li>Variación de resistencia media respecto a la resistencia característica.</li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </div> -->
+
+            </div>
+        </div>
+    </section>
+
+    <section class="blog" id="blog">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 mb-4">
+                    <div class="post-head">
+                        <span>Blog</span>
+                        <div class="float-end">
+                            <a href="blog.html" style="text-decoration: none;"><button class="btn-blog">
+                            Ver Todos
+                        </button></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4">
+                    <div class="post-item">
+                        <img src="./assets/img/poder.svg" alt="">
+                        <span class="post-sub">BLOG POST</span>
+                        <h1 class="post-title">El poder de la obra con cemento duro y concreto</h1>
+                        <p class="post-paf">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mi scelerisque dui, fermentum fermentum. Mauris posuere enim ac id tincidunt tristique lorem rhoncus varius.</p>
+                        <a href="blog-single.html" class="btn-post">Ver más</a>
+                        <hr style="margin-top: 90px;">
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-6 col-md-4">
+                    <div class="post-item">
+                        <img src="./assets/img/poder.svg" alt="">
+                        <span class="post-sub">BLOG POST</span>
+                        <h1 class="post-title">El poder de la obra con cemento duro y concreto</h1>
+                        <p class="post-paf">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mi scelerisque dui, fermentum fermentum. Mauris posuere enim ac id tincidunt tristique lorem rhoncus varius.</p>
+                        <a href="blog-single.html" class="btn-post">Ver más</a>
+                        <hr style="margin-top: 90px;">
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-6 col-md-4">
+                    <div class="post-item">
+                        <img src="./assets/img/poder.svg" alt="">
+                        <span class="post-sub">BLOG POST</span>
+                        <h1 class="post-title">El poder de la obra con cemento duro y concreto</h1>
+                        <p class="post-paf">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mi scelerisque dui, fermentum fermentum. Mauris posuere enim ac id tincidunt tristique lorem rhoncus varius.</p>
+                        <a href="blog-single.html" class="btn-post">Ver más</a>
+                        <hr style="margin-top: 90px;">
+                    </div>
+                </div>
+
+
+
+            </div>
+        </div>
+    </section>
+
+    <section class="contacto" id="contacto">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-sm-6">
+                    <h1>
+                        <span class="bolds">Contactate</span> con nosotros y con mucho gusto te ofreceremos la información que necesites para potenciar tu negocio.
+                    </h1>
+                    <p>O contáctanos a travéz de <a href="mailto:info@betonbi.com" class="bolds">info@betonbi.com</a></p>
+                </div>
+                <div class="col-12 col-sm-6">
+                    <form class="mt-2 needs-validation" novalidate id="frmContacto" onsubmit="preventdefault">
+                        <div class="form-group mb-4">
+                            <input type="text" required name="name" style="padding: 20px 40px;" id="name" placeholder="Nombre " class="form-control icont">
+                        </div>
+
+                        <div class="form-group mb-4">
+                            <input type="email" required name="email" style="padding: 20px 40px;" id="email" placeholder="Email" class="form-control icont">
+                        </div>
+
+                        <div class="form-group mb-4">
+                            <input type="text" required name="message" style="padding: 20px 40px;" id="message" placeholder="Mensaje" class="form-control icont">
+                        </div>
+
+                        <button type="button" class=" btn btn-contacto" id="sContacto">
+                            Enviar
+                        </button>
+
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="negro">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-sm-4 order-5 order-sm-1">
+                    <div class="logo-footer">
+                        <img src="./assets/logo/logofooter.svg" class="lfot" alt="Betonbi">
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-2 order-2 order-sm-1">
+                    <ul class="navbar-footer">
+                        <li class="nav-link-footer mb-sm-3 active-link">
+                            <a href="#nosotros"> Nosotros</a>
+                        </li>
+                        <li class="nav-link-footer mb-sm-3">
+                            <a href="#acerca"> Acerca de</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-12 col-sm-2 order-3 order-sm-2">
+                    <ul class="navbar-footer">
+                        <li class="nav-link-footer mb-sm-3">
+                            <a href="#blog"> Blog</a>
+                        </li>
+                        <li class="nav-link-footer mb-sm-3">
+                            <a href="#contacto"> Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-12 col-sm-4 order-1 order-sm-3">
+                    <div class="logo-footer">
+                        <p class="mb-3 text-white">Envianos un mensaje</p>
+                        <a class="d-block d-sm-none mb-3" href="https://api.whatsapp.com/send?phone=51935404942&text=Somos%20Tu%20Mejor%20Opci%C3%B3n." target="_blank">
+                            <img src="./assets/img/what.svg" alt="Whatsapp">
+                        </a>
+                        <h4>
+                            <a href="mailto:info@betonbi.com" class="link-mail">info@betonbi.com</a>
+                        </h4>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+
+    <!-- Modal HTML -->
+    <div id="myModal" class="modal fade">
+        <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <div class="embed-responsive embed-responsive-16by9" style="width: 100%;">
+                        <iframe id="cartoonVideo" class="embed-responsive-item" width="100%" height="520" src="//www.youtube.com/embed/YE7VzlLtp-4" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./js/jquery-3.5.1.min.js"></script>
+    <script src="./js/popper.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./plugins/toast/jnoty.js"></script>
+    <script src="./js/main.js"></script>
+    <script>
+        function showModal() {
+            $("#myModal").modal('show');
+        }
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,404 @@
+/* ──────────────────────────────────────────────────────────────────────────────── */
+
+
+/* HEADER PAGES */
+
+.sd-movil {
+    height: 180px;
+    background: #000000;
+    position: relative;
+}
+
+.titulo {
+    color: #000;
+    font-size: 45px;
+    line-height: 60px;
+    font-weight: 400;
+    margin-top: 80px;
+}
+
+.img-slide-movil {
+    position: absolute;
+    right: 10px;
+}
+
+.float-right {
+    float: right;
+}
+
+
+/* Celulares */
+
+@media (min-width: 215px) {
+    /* ──────────────────────────────────────────────────────────────────────────────── */
+    /* HEADER PAGES */
+    .sd-movil {
+        height: 180px;
+        background: #000000;
+        position: relative;
+    }
+    .titulo {
+        color: #000;
+        font-size: 45px;
+        line-height: 60px;
+        font-weight: 400;
+        margin-top: 150px;
+    }
+    .img-slide-movil {
+        position: absolute;
+        right: 10px;
+    }
+}
+
+@media (min-width: 310px) {
+    /* ──────────────────────────────────────────────────────────────────────────────── */
+    /* HEADER PAGES */
+    .sd-movil {
+        height: 260px;
+        background: #000000;
+        position: relative;
+    }
+    .titulo {
+        color: #000;
+        font-size: 45px;
+        line-height: 60px;
+        font-weight: 400;
+        margin-top: 150px;
+    }
+    .img-slide-movil {
+        position: absolute;
+        right: 10px;
+    }
+}
+
+
+/* Celulares */
+
+@media (min-width: 340px) {
+    /* ──────────────────────────────────────────────────────────────────────────────── */
+    /* HEADER PAGES */
+    .sd-movil {
+        height: 280px;
+        background: #000000;
+        position: relative;
+    }
+    .titulo {
+        color: #000;
+        font-size: 45px;
+        line-height: 60px;
+        font-weight: 400;
+        margin-top: 150px;
+    }
+    .img-slide-movil {
+        position: absolute;
+        right: 10px;
+    }
+}
+
+@media (min-width: 400px) {
+    /* ──────────────────────────────────────────────────────────────────────────────── */
+    /* HEADER PAGES */
+    .sd-movil {
+        height: 380px;
+        background: #000000;
+        position: relative;
+    }
+    .titulo {
+        color: #000;
+        font-size: 45px;
+        line-height: 60px;
+        font-weight: 400;
+        margin-top: 200px;
+    }
+    .img-slide-movil {
+        position: absolute;
+        right: 10px;
+    }
+}
+
+@media (min-width: 500px) {
+    /* ──────────────────────────────────────────────────────────────────────────────── */
+    /* HEADER PAGES */
+    .sd-movil {
+        height: 420px;
+        background: #000000;
+        position: relative;
+    }
+    .titulo {
+        color: #000;
+        font-size: 45px;
+        line-height: 60px;
+        font-weight: 400;
+        margin-top: 200px;
+    }
+    .img-slide-movil {
+        position: absolute;
+        right: 10;
+    }
+}
+
+@media (min-width: 550px) {
+    /* ──────────────────────────────────────────────────────────────────────────────── */
+    /* HEADER PAGES */
+    .negro {
+        background-color: transparent;
+    }
+    .sd-movil {
+        height: 460px;
+        background: #000000;
+        position: relative;
+    }
+    .titulo {
+        color: #000;
+        font-size: 45px;
+        line-height: 60px;
+        font-weight: 400;
+        margin-top: 200px;
+    }
+    .img-slide-movil {
+        position: absolute;
+        right: 30px;
+    }
+    .title-slide {
+        background-color: white;
+        color: #000;
+        position: relative;
+    }
+    .type-slide-head {
+        background-color: #FFFFFF !important;
+    }
+}
+
+
+/* tabletas */
+
+@media (min-width: 768px) {
+    /* ──────────────────────────────────────────────────────────────────────────────── */
+    /* HEADER PAGES */
+    .negro {
+        background-color: black;
+    }
+    .img-slide-movil {
+        position: absolute;
+        right: 30px;
+    }
+    .titulo {
+        color: white;
+        margin-top: 60px;
+        font-size: 42px;
+        line-height: 45px;
+    }
+    .sub-title {
+        color: white;
+        font-size: 12px;
+    }
+    .title-slide {
+        background-color: inherit;
+        color: #000;
+        position: relative;
+        margin-top: -20px;
+    }
+    .type-slide-head {
+        background-color: black !important;
+    }
+    .img-slide {
+        position: absolute;
+        right: 5px;
+        /* margin-top: 80 !important; */
+    }
+    .btn-contacto {
+        /* margin-top: 80px; */
+        margin-bottom: -40px;
+        display: block !important;
+    }
+    .mb-5 {
+        margin-bottom: 1rem!important;
+    }
+    .float-right {
+        float: right;
+        margin-top: 20px;
+    }
+    .bg-white {
+        background-color: white;
+        border: none;
+    }
+    .by-slide {
+        /* top: 100vh; */
+        /* bottom: 0; */
+        /* right: 0; */
+    }
+    .items-novedades {
+        width: 60%;
+        color: white;
+        margin-top: 70px;
+        margin-bottom: 70px;
+    }
+    /* ──────────────────────────────────────────────────────────────────────────────── */
+    /* ARTICLE SECTION */
+    .secction-article {
+        margin-top: 20px !important;
+        margin-bottom: 20px !important;
+    }
+    .secction-two {
+        margin-top: 20px !important;
+        margin-bottom: 20px !important;
+    }
+    /* ──────────────────────────────────────────────────────────────────────────────── */
+    /* SECCTION FOOTER */
+    .navbar-footer {
+        margin-top: 40px;
+    }
+}
+
+
+/* escritorio */
+
+@media (min-width: 992px) {
+    /* ──────────────────────────────────────────────────────────────────────────────── */
+    /* HEADER PAGES */
+    .negro {
+        background-color: black;
+    }
+    .img-slide-movil {
+        position: absolute;
+        right: 30px;
+    }
+    .titulo {
+        color: white;
+        margin-top: 60px;
+        font-size: 59px;
+        line-height: 70px;
+    }
+    .sub-title {
+        color: white;
+        font-size: 18px;
+    }
+    .title-slide {
+        background-color: inherit;
+        color: #000;
+        position: relative;
+        margin-top: -20px;
+    }
+    .type-slide-head {
+        background-color: black !important;
+    }
+    .img-slide {
+        position: absolute;
+        right: 5px;
+        /* margin-top: 80 !important; */
+    }
+}
+
+
+/* pantallas grandes */
+
+@media (min-width: 1200px) {
+    /* ──────────────────────────────────────────────────────────────────────────────── */
+    /* HEADER PAGES */
+    .negro {
+        background-color: black;
+    }
+    .img-slide-movil {
+        position: absolute;
+        right: 30px;
+    }
+    .titulo {
+        color: white;
+        margin-top: 60px;
+        font-size: 69px;
+        line-height: 70px;
+    }
+    .sub-title {
+        color: white;
+        font-size: 22px;
+    }
+    .title-slide {
+        background-color: inherit;
+        color: #000;
+        position: relative;
+        margin-top: -20px;
+    }
+    .type-slide-head {
+        background-color: black !important;
+    }
+    .img-slide {
+        position: absolute;
+        right: 5px;
+        /* margin-top: 80 !important; */
+    }
+}
+
+
+/* PANTALLAS EXTRA GRANDES */
+
+@media (min-width: 1400px) {
+    /* ──────────────────────────────────────────────────────────────────────────────── */
+    /* HEADER PAGES */
+    .negro {
+        background-color: black;
+    }
+    .img-slide-movil {
+        position: absolute;
+        right: 30px;
+    }
+    .titulo {
+        color: white;
+        margin-top: 40px;
+        font-size: 82px;
+        line-height: 100px;
+    }
+    .sub-title {
+        color: white;
+        font-size: 28px;
+    }
+    .title-slide {
+        background-color: inherit;
+        color: #000;
+        position: relative;
+        margin-top: -20px;
+    }
+    .type-slide-head {
+        background-color: black !important;
+    }
+    .img-slide {
+        position: absolute;
+        right: 5px;
+        /* margin-top: 80 !important; */
+    }
+}
+
+@media (min-width: 1900px) {
+    /* ──────────────────────────────────────────────────────────────────────────────── */
+    /* HEADER PAGES */
+    .negro {
+        background-color: black;
+    }
+    .img-slide-movil {
+        position: absolute;
+        right: 30px;
+    }
+    .titulo {
+        color: white;
+        margin-top: 40px;
+        font-size: 82px;
+        line-height: 100px;
+    }
+    .sub-title {
+        color: white;
+        font-size: 28px;
+    }
+    .title-slide {
+        background-color: inherit;
+        color: #000;
+        position: relative;
+        margin-top: -20px;
+    }
+    .type-slide-head {
+        background-color: black !important;
+    }
+    .img-slide {
+        position: absolute;
+        right: 5px;
+        /* margin-top: 80 !important; */
+    }
+}

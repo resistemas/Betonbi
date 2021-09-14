@@ -1,0 +1,1015 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Public Sans', sans-serif;
+}
+
+img {
+    max-width: 100%;
+}
+
+
+/*section{*/
+
+
+/*    margin-top: 200px !important;*/
+
+
+/*    margin-bottom: 200px !important;*/
+
+
+/*}*/
+
+.negro {
+    background: #000;
+}
+
+.blanco {
+    color: white;
+}
+
+.naranja {
+    color: #f59300;
+}
+
+.logo {
+    width: 160px;
+}
+
+.pafs {
+    font-family: Public Sans;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.active-tab h4 {
+    color: #f59300;
+    font-weight: bold;
+    border-bottom: #f59300 solid 1px;
+    display: inline;
+    margin: 5px;
+    animation: bounce;
+    animation-duration: 2s;
+}
+
+.chicle {
+    -webkit-animation: 1s chicle 1;
+}
+
+@-webkit-keyframes chicle {
+    30% {
+        -webkit-transform: scaleX(1.25) scaleY(0.75);
+    }
+    50% {
+        -webkit-transform: scaleX(0.75) scaleY(1.25);
+    }
+    60% {
+        -webkit-transform: scaleX(1.15) scaleY(0.85);
+    }
+}
+
+.vaiven {
+    -webkit-animation: 1s vaiven 1;
+}
+
+@-webkit-keyframes vaiven {
+    15% {
+        -webkit-transform: rotate(-10deg) translateX(-15%);
+    }
+    /* 30% {
+        -webkit-transform: rotate(5deg) translateX(10%);
+    } */
+    /* 45% {
+        -webkit-transform: rotate(-3deg) translateX(-10%);
+    }
+    60% {
+        -webkit-transform: rotate(2deg) translateX(5%);
+    }
+    75% {
+        -webkit-transform: rotate(-1deg) translateX(-3%);
+    } */
+}
+
+
+/* CSS DE BARRA DE NAVEGACION */
+
+.link-item {
+    color: white !important;
+}
+
+.link-item-active {
+    color: #f59300 !important;
+}
+
+.link-item:hover {
+    color: #f59300 !important;
+}
+
+
+/* CSS DE TYPE SLIDE */
+
+.titulo {
+    margin-top: 30px;
+    font-size: 70px;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding-bottom: 20px;
+    /* position: absolute; */
+    font-family: Public Sans;
+    font-style: normal;
+    font-weight: 300;
+    /* font-size: 64px; */
+    line-height: 90px;
+    /* or 109% */
+    letter-spacing: -0.04em;
+    color: #FFFFFF;
+}
+
+.sub-title {
+    padding-top: 10px;
+    font-family: Public Sans;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    color: white;
+}
+
+.btn-contacto {
+    margin-top: 25px;
+    width: 127.2px;
+    height: 50px;
+    left: 90.49px;
+    top: 559.8px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border-color: #f59300;
+    font-weight: bold;
+    background: #F59300;
+    border-radius: 29px;
+    display: block;
+    text-decoration: none;
+    color: black;
+}
+
+.btn-contacto:hover {
+    color: black;
+}
+
+.img-slide {
+    position: absolute;
+    right: 0;
+}
+
+.by-slide {
+    /* position: absolute; */
+    bottom: 15px;
+    background-color: #FFFFFF;
+    display: block;
+}
+
+
+/* CSS DE ARTIULOS */
+
+.secction-article {
+    margin-top: 200px;
+    margin-bottom: 200px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.title-article {
+    margin-bottom: 20px;
+}
+
+.articles {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.paf {
+    text-align: left;
+    font-size: 16px;
+    font-weight: 500;
+    color: #000;
+}
+
+
+/* CSS SECCION TWO */
+
+.secction-two {
+    margin-top: 200px;
+    margin-bottom: 200px;
+}
+
+.bolds {
+    color: #f59300;
+}
+
+.space {
+    margin-top: 120px;
+}
+
+
+/* CSS SECCION NOSOTROS */
+
+.container-nosotros {
+    width: 100% !important;
+    margin-right: auto !important;
+    margin-left: auto !important;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+
+.section-nosotros {
+    margin-top: 200px;
+    margin-bottom: 200px;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+
+.marcador {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: block;
+}
+
+.nosotros-info {
+    background: rgba(196, 196, 196, 0.2);
+    width: 100%;
+}
+
+.nosotros-items {
+    padding: 90px;
+    justify-content: center;
+    align-items: center;
+}
+
+.nosotros-paf {
+    text-align: left;
+    margin-top: 25px;
+}
+
+
+/* CSS SECION DE ACERCA DE */
+
+.acerca-head {
+    width: 81%;
+    text-align: left;
+}
+
+.acercade {
+    margin-top: 200px;
+    margin-bottom: 200px;
+}
+
+.divider {
+    /* border: 1px solid #E5E5E5 */
+    border: 0.2px solid #686868;
+}
+
+.acercade-paf {
+    font-family: Public Sans;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 36px;
+}
+
+
+/* CSS DE SECTION NOVEDADES */
+
+.novedades {
+    margin-top: 200px;
+    margin-bottom: 200px;
+}
+
+.items-novedades {
+    width: 40%;
+    color: white;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+.suscribe {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    z-index: 1000;
+    /*margin-top: 8px;*/
+    margin-right: 30px;
+    font-weight: bold;
+    -ms-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.suscribe-blog {
+    position: absolute;
+    top: 10px;
+    right: 0;
+    z-index: 1000;
+    margin-right: 30px;
+    font-weight: bold;
+}
+
+
+/* CSS DE INTEGRACIONES */
+
+.head-inte {
+    width: 78%;
+    text-align: left;
+}
+
+.integraciones {
+    margin-top: 200px;
+    margin-bottom: 200px;
+}
+
+.integraciones-paf {
+    font-family: Public Sans;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 36px;
+}
+
+.integraciones-icons {
+    padding: 15px;
+}
+
+
+/* CSS SECCION DE VIDEO */
+
+.video {
+    margin-top: 200px;
+    margin-bottom: 200px;
+}
+
+
+/* CSS SECCION DE PROVEEDROES */
+
+.proveedores {
+    margin-top: 200px;
+    margin-bottom: 200px;
+    background: rgba(196, 196, 196, 0.2);
+    position: relative;
+}
+
+.tabses {
+    align-items: center;
+    margin-top: 60px;
+    margin-bottom: 80px;
+}
+
+.contens {
+    align-items: center;
+    margin-top: 60px;
+    margin-bottom: 80px;
+}
+
+
+/* CSS SECCTION BLOG */
+
+.blog {
+    margin-top: 200px;
+    margin-bottom: 200px;
+}
+
+.btn-blog {
+    border: 1px solid black;
+    box-sizing: border-box;
+    border-radius: 30px;
+    padding: 8px 20px 8px 20px;
+    color: black;
+    background-color: #FFFFFF;
+    display: flex;
+    align-items: flex-start;
+}
+
+.btn-blog:hover {
+    border: 1px solid #f59300;
+    box-sizing: border-box;
+    border-radius: 30px;
+    padding: 8px 20px 8px 20px;
+    color: #f59300;
+    background-color: #FFFFFF;
+    display: flex;
+    align-items: flex-start;
+}
+
+.post-sub {
+    display: block;
+    font-family: Public Sans;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 22px;
+    color: rgba(104, 104, 104, 0.8);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.post-title {
+    font-family: Public Sans;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 26px;
+    color: black;
+}
+
+.btn-post {
+    border: 1px solid #F59300;
+    box-sizing: border-box;
+    border-radius: 30px;
+    padding: 8px 20px 8px 20px;
+    color: #F59300;
+    background-color: #FFFFFF;
+    display: flex;
+    align-items: flex-start;
+    text-decoration: none;
+    float: right;
+}
+
+.btn-post:hover {
+    border: 1px solid black;
+    box-sizing: border-box;
+    border-radius: 30px;
+    color: black;
+    padding: 8px 20px 8px 20px;
+    background-color: #FFFFFF;
+    display: flex;
+    align-items: flex-start;
+    text-decoration: none;
+    float: right;
+}
+
+
+/* CSS SECTION CONTACTO */
+
+.contacto {
+    margin-top: 200px;
+    margin-bottom: 200px;
+}
+
+.logo-footer {
+    margin-top: 60px;
+    margin-bottom: 80px;
+}
+
+
+/* CSS FOOTER */
+
+.navbar-footer {
+    margin-top: 60px;
+    margin-bottom: 80px;
+}
+
+.nav-link-footer {
+    list-style: none;
+}
+
+.nav-link-footer a {
+    text-decoration: none;
+    font-family: Public Sans;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+.active-link a {
+    color: #f59300;
+}
+
+.link-mail {
+    color: #f59300;
+    text-decoration: none;
+}
+
+.link-mail:hover {
+    color: white;
+    text-decoration: none;
+}
+
+
+/* RESPONSIVE CSSS */
+
+@media only screen and (max-width: 768px) {
+    /* CSS SLIDE MOVIL */
+    .sd-movil {
+        height: 320px;
+        background: #000000;
+        position: relative
+    }
+    .img-slide-movil {
+        position: absolute;
+        right: 0;
+    }
+    /* CSS DE TYPE SLIDE */
+    .fondo-movil {
+        background-color: #000;
+        width: 100vw;
+        height: 650px;
+        position: relative;
+    }
+    .type-slide-head {
+        background-color: #FFFFFF;
+    }
+    .img-slide {
+        position: absolute;
+    }
+    .title-slide {
+        background-color: white;
+        color: #000;
+        position: relative;
+    }
+    .titulo {
+        color: #000;
+        font-size: 45px;
+        line-height: 60px;
+        font-weight: 400;
+        margin-top: 120px;
+    }
+    .sub-title {
+        color: #000;
+    }
+    .by-slide {
+        /* position: absolute; */
+        top: 100vh;
+        bottom: 0;
+        right: 0;
+    }
+    /* CSS DE NOSOTROS */
+    .img-nosotros {
+        height: 300px;
+    }
+    .view-noso {
+        font-weight: bold;
+        color: #f59300;
+    }
+    /* .nosotros-info {
+        background-color: white;
+    } */
+    .nosotros-items {
+        margin-left: 15px;
+        margin-right: 15px;
+        padding: 0px;
+        /* background-color: white; */
+        margin-bottom: 40px;
+    }
+    .nosotros-items h4 {
+        font-size: 25px;
+    }
+    /* CSS ACERCADE */
+    .acercade {
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    .acerca-head {
+        width: 95%;
+        text-align: left;
+    }
+    .acerdade-paf {
+        margin-bottom: 40px;
+    }
+    /* CSS DE INTEGRACIONES */
+    .integraciones {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .head-inte {
+        width: 100%;
+        text-align: left;
+    }
+    .integraciones-paf {
+        margin-bottom: 60px;
+    }
+    .pafs {
+        margin-bottom: 20px;
+    }
+    /* CSS DE PROVEEDOES */
+    .proveedores {
+        background-color: #FFFFFF;
+    }
+    .accordion-button:not(.collapsed) {
+        color: black;
+        background-color: white;
+        box-shadow: inset 0 -1px 0 rgb(0 0 0 / 13%);
+    }
+    .accordion-button:not(.collapsed)::after {
+        color: black;
+    }
+    .accordion-button::after {
+        color: black;
+    }
+    /* CSS DE BLOG */
+    .post-head {
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-bottom: 5px;
+    }
+    .post-head span {
+        font-size: 28px;
+    }
+    .post-item {
+        margin-top: 25px;
+        background: rgba(237, 237, 237, 0.6);
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .post-sub {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .post-title {
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-bottom: 40px;
+    }
+    .post-paf {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .btn-post {
+        display: block;
+        float: right;
+        background-color: inherit;
+        font-weight: bold;
+        margin-right: 20px;
+    }
+    .divider {
+        border: rgba(237, 237, 237, 0.6) solid 1px;
+    }
+    /* CSS CONTACTOS */
+    .contacto {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .icont {
+        font-size: 19px;
+    }
+    /* CSS FOOTER */
+    .logo-footer {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .lfot {
+        float: right;
+        margin-bottom: 40px;
+    }
+    .nav-link-footer {
+        list-style: none;
+        margin-top: 5px;
+        margin-bottom: 15px;
+        margin-left: -28px;
+    }
+    .nav-link-footer a {
+        text-decoration: none;
+        font-family: Public Sans;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 16px;
+        color: #FFFFFF;
+    }
+    .navbar-footer {
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+    /* ──────────────────────────────────────────────────────────────────────────────── */
+    /* SECCION BLOG TENDENCIAS */
+    /* ───────────────────────────────────────────────────────────────── */
+    .tendencias {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .tend-label {
+        text-align: center;
+        font-weight: bold;
+        font-size: 20px;
+    }
+    .tend-label h4 {
+        text-align: center;
+        font-weight: 400;
+        font-size: 30px;
+    }
+    /* ──────────────────────────────────────────────────────────────────────────────── */
+    /* BLOG SECCTION */
+    .btn-post-blog {
+        border: 1px solid #F59300;
+        box-sizing: border-box;
+        border-radius: 30px;
+        padding: 8px 20px 8px 20px;
+        color: #F59300;
+        background-color: #FFFFFF;
+        display: flex;
+        align-items: flex-start;
+        text-decoration: none;
+        float: right !important;
+        margin-right: 20px;
+    }
+    .post-item-blog {
+        background-color: white;
+    }
+    /* ──────────────────────────────────────────────────────────────────────────────── */
+    /* ARTICULO SIMPLE */
+    .article-simple {
+        margin-top: 0px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .article-single-title {
+        margin-bottom: 30px;
+        font-size: 30px;
+    }
+}
+
+
+/* ──────────────────────────────────────────────────────────────────────────────── */
+
+
+/* ──────────────────────────────────────────────────────────────────────────────── */
+
+
+/* ──────────────────────────────────────────────────────────────────────────────── */
+
+
+/* SECCION DE BLOG */
+
+.title-head {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+
+
+/* CSS DE ARTICLES */
+
+.articles {
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.article-content {
+    background: #F3F3F3;
+}
+
+.article-head {
+    margin-bottom: 20px;
+    margin-top: 30px;
+    margin-left: 40px;
+}
+
+.article-slide {
+    padding-left: 10px;
+    padding-right: 40px;
+}
+
+.article-slide p {
+    margin-top: 30px;
+    margin-left: 25px;
+    margin-bottom: 250px;
+}
+
+.article-title {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.article-img {
+    width: 100%;
+}
+
+.article-img img {
+    width: 100%;
+}
+
+.slide-dir {
+    padding-bottom: 100%;
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+    position: absolute;
+    top: 70%;
+    bottom: 0;
+    z-index: 1;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    width: 15%;
+    padding: 0;
+    color: #fff;
+    text-align: center;
+    background: 0 0;
+    border: 0;
+    opacity: .5;
+    transition: opacity .15s ease;
+}
+
+
+/* CSS DE NOVEDADES BLOG */
+
+.items-novedades-blog {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    display: flex;
+}
+
+.items-novedades-blog span {
+    /* color: white; */
+    margin-top: 10px;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+}
+
+
+/* CSS DE TENDENCIAS */
+
+.tendencias {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.tend-item-all p {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    letter-spacing: 0.105em;
+    color: rgba(104, 104, 104, 0.8);
+}
+
+.tend-item-all a {
+    color: #000000;
+    text-decoration: none;
+}
+
+.tend-item-all a span:hover {
+    color: #f59300;
+}
+
+
+/* ──────────────────────────────────────────────────────────────────────────────── */
+
+
+/* SECCCION DE BLOG ITEM */
+
+
+/* ──────────────────────────────────────────────────────────────────────────────── */
+
+.btn-post-blog {
+    border: 1px solid #F59300;
+    box-sizing: border-box;
+    border-radius: 30px;
+    padding: 8px 20px 8px 20px;
+    color: #F59300;
+    background-color: #FFFFFF;
+    display: flex;
+    align-items: flex-start;
+    text-decoration: none;
+    float: left;
+}
+
+
+/* ──────────────────────────────────────────────────────────────────────────────── */
+
+
+/* ARTICULO SIMPLE */
+
+.article-simple {
+    padding-top: 50px;
+    margin-bottom: 100px;
+}
+
+.article-content-single {
+    /* padding-right: 20px; */
+}
+
+.article-head-single {
+    margin-left: 0px;
+}
+
+.article-single-title {
+    margin-left: 0px;
+}
+
+.single-head {
+    margin-top: 22px;
+    margin-bottom: 22px;
+}
+
+.single-paf {
+    text-align: left;
+}
+
+
+/* ──────────────────────────────────────────────────────────────────────────────── */
+
+
+/* RELACIONADO */
+
+
+/* ──────────────────────────────────────────────────────────────────────────────── */
+
+.relation {
+    display: block;
+    background-color: #f59300;
+    width: 100%;
+    height: 50px;
+    padding-top: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+.relation h4 {
+    font-weight: bold;
+}
+
+.relation-item {
+    margin-top: 20px;
+}
+
+
+/* .relation-item a img {} */
+
+.relation-item-all p {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    letter-spacing: 0.105em;
+    color: rgba(104, 104, 104, 0.8);
+}
+
+.relation-item-all a {
+    text-decoration: none;
+    font-size: 30px;
+    color: black;
+}
+
+.relation-item-all a:hover {
+    text-decoration: none;
+    font-size: 30px;
+    color: #F59300;
+}
+
+
+/*================================================*/
+
+
+/*             CSS MAYOR 1400PX*/
+
+
+/*================================================*/
+
+@media (min-width: 1400px) {
+    .container,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container-xl,
+    .container-xxl {
+        max-width: 95%;
+    }
+    .img-slide {
+        text-align: right;
+        padding-right: 80px;
+    }
+    .items-novedades {
+        width: 60%;
+        color: white;
+        margin-top: 70px;
+        margin-bottom: 70px;
+    }
+    /*Flechas de carrusel*/
+    .slide-dir {
+        padding-bottom: 100%;
+    }
+    .carousel-control-next,
+    .carousel-control-prev {
+        position: absolute;
+        top: 95%;
+        bottom: 0;
+        z-index: 1;
+        display: flex;
+        /* align-items: center; */
+        justify-content: center;
+        width: 15%;
+        padding: 0;
+        color: #fff;
+        text-align: center;
+        background: 0 0;
+        border: 0;
+        opacity: .5;
+        transition: opacity .15s ease;
+    }
+}
