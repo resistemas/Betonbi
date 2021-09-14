@@ -328,6 +328,47 @@
     }
 }
 
+@media (min-width: 1366px) {
+    /* ──────────────────────────────────────────────────────────────────────────────── */
+    /* HEADER PAGES */
+    .negro {
+        background-color: black;
+    }
+    .img-slide-movil {
+        position: absolute;
+        right: 30px;
+    }
+    .titulo {
+        color: white;
+        margin-top: 60px;
+        font-size: 69px;
+        line-height: 70px;
+    }
+    .sub-title {
+        color: white;
+        font-size: 22px;
+    }
+    .title-slide {
+        background-color: inherit;
+        color: #000;
+        position: relative;
+        margin-top: -20px;
+    }
+    .type-slide-head {
+        background-color: black !important;
+    }
+    .img-slide {
+        position: absolute;
+        right: 5px;
+        /* margin-top: 80 !important; */
+    }
+    .btn-contacto {
+        margin-top: 40px;
+        margin-bottom: 40px;
+        display: block !important;
+    }
+}
+
 
 /* PANTALLAS EXTRA GRANDES */
 
