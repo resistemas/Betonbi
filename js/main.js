@@ -31,7 +31,6 @@ $(".tbs").click(function(e) {
     if (dt.ac === false) {
         showTb()
         $(this).addClass('active-tab');
-        $(this).addClass('vaiven');
         ShowTabs(dt.tbs);
         dt.ac = true;
     } else {}
@@ -42,7 +41,6 @@ function showTb() {
         let dts = $(this).data();
         dts.ac = false;
         $(this).removeClass('active-tab');
-        $(this).removeClass('vaiven');
     });
 }
 

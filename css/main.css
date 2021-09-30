@@ -53,9 +53,7 @@ img {
     font-weight: bold;
     border-bottom: #f59300 solid 1px;
     display: inline;
-    margin: 5px;
-    animation: bounce;
-    animation-duration: 2s;
+    margin-left: 8px;
 }
 
 .chicle {
